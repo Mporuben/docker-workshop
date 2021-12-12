@@ -1,0 +1,12 @@
+version: '3.2'
+services:
+  vue:
+    container_name: vue-app
+    build: ./
+    environment:
+      VUE_APP_NAME: Our Docker App 🐳
+    ports:
+      - 3000:8080
+    command: npm run serve
+    volumes:
+      - ./:/app
