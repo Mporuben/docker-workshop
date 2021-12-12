@@ -1,4 +1,4 @@
-# docker-workshop
+# Docker Workshop
 
 ## Project setup
 ```
